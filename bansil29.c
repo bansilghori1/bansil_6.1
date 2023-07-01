@@ -17,7 +17,7 @@ int main() {
 
    
     while (startYear <= endYear) {
-        if ((startYear % 4 == 0 && startYear % 100 != 0) || (startYear % 400 == 0)) {
+        if ((startYear % 4 == 0 && startYear % 100 == 0) || (startYear % 400 == 0)) {
             printf("%d\n",startYear);
         }
         startYear++;
