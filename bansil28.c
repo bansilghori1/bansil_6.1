@@ -9,7 +9,7 @@ int num;
 
 printf("enter any number :  ");
 scanf("%d",&num);
-printf("Odd numbers from 10 to 1:\n");
+printf("Odd numbers from N to 1:\n");
 
     while (num >= 1) {
         if (num % 2 != 0) {
