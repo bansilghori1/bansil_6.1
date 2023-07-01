@@ -15,8 +15,7 @@ int main() {
 
     printf("Leap years between %d and %d are:\n", startYear, endYear);
 
-    //int year = startYear;
-
+   
     while (startYear <= endYear) {
         if ((startYear % 4 == 0 && startYear % 100 != 0) || (startYear % 400 == 0)) {
             printf("%d\n",startYear);
